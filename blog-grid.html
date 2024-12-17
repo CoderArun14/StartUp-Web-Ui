@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- contact-tab start -->
+  <section class="contact-tab">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-8">
+          <div class="contact ms-4">
+            <p><i class="fa-sharp fa-solid fa-location-dot "></i>&nbsp 123 Street, New York, USA</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp +012 345 6789</p>
+            <p><i class="fa-solid fa-envelope-open"></i>&nbsp info@example.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="social-contact">
+            <a href=""><i class="fa-brands fa-twitter border mt-1 "></i></i></a>
+            <a href=" "><i class="fa-brands fa-facebook-f border mt-1"></i></a>
+            <a href=" "><i class="fa-brands fa-linkedin border mt-1"></i></a>
+            <a href=" "><i class="fa-brands fa-instagram border mt-1"></i></a>
+            <a href=" "><i class="fa-brands fa-youtube border me-5 mt-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact-tab end -->
+  <!-- nav-bar start -->
+  <section class="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-1" style="color:var(--primary);" href="#"><i class="fa-solid fa-user-tie " style="color:var(--primary);"></i> Startup</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+           <ul class="navbar-nav ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-sm-none" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-sm-none" href="services.html">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link border-sm-none dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item border-0" href="blog-grid.html">Blog Grid</a></li>
+                <li><a class="dropdown-item border-0" href="blog-details.html">Blog Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Page
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item border-0" href="pricing-plan.html">Pricing plan</a></li>
+                <li><a class="dropdown-item border-0" href="our-features.html">Our Features</a></li>
+                <li><a class="dropdown-item border-0" href="team-member.html">Team Member</a></li>
+                <li><a class="dropdown-item border-0" href="testimonial.html">Testimonial</a></li>
+                <li><a class="dropdown-item border-0" href="free-quote.html">Free Quote</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+          </ul>
+          <button class="text-center">Download Pro Vision</button>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- nav-bar end -->
+  <!-- blog-grid bar start -->
+  <div class="about-us d-flex justify-content-center flex-column align-items-center">
+    <div class="about-text text-center">
+      <h1>Blog Grid</h1>
+      <p>Home O Blog Grid</p>
+    </div>
+  </div>
+  <!-- blog-grid bar end -->
+  <!-- blog-grid start -->
+  <section class="blog-grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-1.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-2.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-3.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-1.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-2.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-3.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-1.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-2.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-3.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5">
+              <div class="post" style="background-color:var(--light);">
+                <div class="post-img">
+                  <img src="img/blog-1.jpg" class="img-fluid">
+                  <div class="web text-white">Web Design</div>
+                </div>
+                <div class="post-text  p-3">
+                  <span class=" text-secondary"><i class="fa-regular fa-user me-3" style="color:var(--primary);"></i>John Doe</span>
+                  <span class="ms-3 text-secondary"><i class="fa-solid fa-calendar-days me-3" style="color:var(--primary);"></i></i>01 Jan, 2045</span>
+                  <h4 class="my-4">How to build a website</h4>
+                  <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                  <a href="" class="btn fs-5 p-0 m-0">READ MORE <i class="fa-solid fa-arrow-right" style="color: var(--primary);" ></i></a href="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 ps-5">
+          <div class="keywords input-group">
+            <input type="text" name="" placeholder="Keywords" class=" form-control p-3 border border-secondary text-secondary">
+            <span class="btn p-3 px-4 text-white" style="background-color:var(--primary);"><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+          <div class="cetegory my-5">
+            <h2 class="mt-5">Cetegories</h2>
+            <div class="running rounded mb-5"></div>
+            <h5 style="background-color:var(--light);" class="py-2 ps-3"><i class="fa-solid fa-arrow-right my-2 pe-2" ></i> Web Design</h5>
+            <h5 style="background-color:var(--light);" class="py-2 ps-3"><i class="fa-solid fa-arrow-right my-2 pe-2" ></i> Web Devlopment</h5>
+            <h5 style="background-color:var(--light);" class="py-2 ps-3"><i class="fa-solid fa-arrow-right my-2 pe-2" ></i> Web Devlopment</h5>
+            <h5 style="background-color:var(--light);" class="py-2 ps-3"><i class="fa-solid fa-arrow-right my-2 pe-2" ></i> Keyword Reserch</h5>
+            <h5 style="background-color:var(--light);" class="py-2 ps-3"><i class="fa-solid fa-arrow-right my-2 pe-2" ></i> Email Marketing</h5>
+          </div>
+          <div class="recent-post ">
+            <h2>Recents Post</h2>
+            <div class="running rounded mb-5"></div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-2.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div class=" post d-flex rounded overflow-hidden mb-5">
+              <img class="img-fluid" src="img/blog-3.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
+              <h5 class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+              </h5>
+            </div>
+            <div>
+              <img src="img/blog-1.jpg" class="img-fluid">
+            </div>
+          </div>
+          <div class="tag-cloud my-5">
+            <h2>Tag Cloud</h2>
+            <div class="running rounded mb-5"></div>
+            <div class="tag">
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Design</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Devlopment</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Marketing</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">SEO</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Writing</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Consulting</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Design</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Devlopment</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Marketing</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">SEO</button>
+              <button class="btn me-3 my-1" style="background-color:var(--light);">Writing</button>
+            </div>
+          </div>
+          <div class="plan-text ">
+            <h2>Plan Text</h2>
+            <div class="running rounded mb-5"></div>
+            <div  style="background-color:var(--light);">
+            <div class="plan d-flex px-4 py-3 flex-column justify-content-center align-items-center" style="background-color:var(--light);">
+              <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam.</p>
+              <a href="" class="btn px-3 py-2 mb-3 rounded-0 text-white" style="background-color:var(--primary);">Read More</a>
+            </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item "><a class="page-link px-4 py-3" href="#"><i class="fa-solid fa-arrow-left-long " ></i></a></li>
+    <li class="page-item active"><a class="page-link  px-4 py-3" href="#">1</a></li>
+    <li class="page-item"><a class="page-link px-4 py-3" href="#">2</a></li>
+    <li class="page-item"><a class="page-link px-4 py-3" href="#">3</a></li>
+    <li class="page-item"><a class="page-link px-4 py-3" href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>
+  </ul>
+</nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- vendor start -->
+  <section class="vendor py-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="img/vendor-1.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-2.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-3.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-4.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="img/vendor-5.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-6.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-7.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="img/vendor-8.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- vendor end -->
+  <!-- footer start -->
+  <section class="footer" style="background-color:var(--blue);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <div class="startup-form p-5 d-flex justify-content-center align-items-center flex-column" style="background-color:var(--primary);">
+            <h1 class="text-white"><i class="fa-solid fa-user-tie " style="font-size: 50px;"></i> Startup</h1>
+            <p class="text-center py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <form >
+              <div class="input-group ">
+                <input type="text" class="form-control border-white py-3 rounded-0" placeholder="Your Email">
+                <button class="btn btn-dark">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-4 ">
+              <div class="get-in-touch d-flex flex-column p-4 my-4">
+                <h4 class="fs-3 text-white">Get In Touch</h4>
+                <div class="running rounded mb-4"></div>
+                <p class="text-white"><i class="fa-sharp fa-solid fa-location-dot "></i> 123 Street, New York, USA</p>
+                <p class="text-white"><i class="fa-solid fa-phone"></i> +012 345 6789</p>
+                <p class="text-white"><i class="fa-solid fa-envelope-open"></i> info@example.com</p>
+                <div class="team-social">
+                  <a href=""><i class="fa-brands fa-twitter  text-white"></i></a>
+                  <a href=""><i class="fa-brands fa-facebook-f text-white"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram text-white"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin-in text-white"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="quick-links p-4 my-4">
+                <h4 class="fs-3 text-white">Quick Links</h4>
+                <div class="running rounded mb-4"></div>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Home</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> About us</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Our Services</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Meet The Team</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Letest Blog</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Contact Us</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="quick-links p-4 my-4">
+                <h4 class="fs-3 text-white">Popular Links</h4>
+                <div class="running rounded mb-4"></div>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Home</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> About us</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Our Services</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Meet The Team</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Letest Blog</p>
+                <p class="text-white"><i class="fa-solid fa-arrow-right-long" style="color:var(--primary);"></i> Contact Us</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright bg-dark">
+  <div class="container">
+   <div class="row ">
+     <div class="col-lg-4"></div>
+     <div class="col-lg-8 d-flex justify-content-center">
+       <p class="text-center text-white ">© Your Site Name. All Rights Reserved. Designed by HTML Codex</p>
+     </div>
+   </div> 
+ </div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
